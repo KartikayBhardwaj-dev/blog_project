@@ -4,15 +4,6 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import './index.css'
-import Layout from './Layout.jsx'
-import About from './Components/About/About.jsx'
-
-import Contact from './Components/Contact/Contact.jsx'
-import Blog from './Components/BlogPost/BlogPost.jsx'
-import SignUp from './Components/SignUp/SignUp.jsx'
-import SignIn from './Components/SignIn/SignIn.jsx'
-import EmailSignUp from './Components/EmailSignUp/EmailSignUp.jsx'
-import GoogleSignUp from './Components/GoogleSignUp/GoogleSignUp.jsx'
 
 const router=createBrowserRouter(
   createRoutesFromElements(
